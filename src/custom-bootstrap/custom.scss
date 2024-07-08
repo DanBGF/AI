@@ -1,0 +1,78 @@
+//change variables here
+
+$CTA: 
+#ff4820;
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+// change classes here
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{height: 200%;
+    background-color: #040c18;}
+
+a{text-decoration: none;}
+
+nav{
+    flex-wrap: wrap;
+    margin-top: 44px;
+
+    ul{
+        width: 100%;
+    }
+    #account{
+
+        button{
+            width: 152px;
+            height: 58px;
+            margin-left: 26px;
+            margin-right: 9.3vw;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            background-color: $CTA;
+        }
+    }
+    
+
+    a{color: white;}
+
+}
+.x{
+    height: 300%;
+}
+#account{
+    margin-left: auto;
+}
+#nav{
+    margin-left: 68px;
+    width: 39.3vw;
+}
+#gpti{
+    height: 14px;
+    margin-left: 9.44vw;
+}
+
+@media only screen and (max-width:1200px) {
+    nav button{
+        margin-right: 4.3vw;
+    }
+}
+
+@media only screen and (max-width: 1070px){
+    #gpti{
+        margin-left: 5vw;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+   
+    #nav{
+        width: 50vw;
+    }
+}
